@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e0dfdf;
+}
+
+header {
+  background-color: rgb(230, 187, 0);
+  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.todoDivArea {
+  display: flex;
+  justify-content: center;
+}
+
+.todoDiv {
+  padding: 20px;
+  width: 250px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.todoText {
+  border: none;
+}
+
+.todoButton {
+  width: 100px;
+}
+
+.contentDiv {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  min-width: 250px;
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
